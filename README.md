@@ -1,2 +1,5 @@
 # website-menu-resep-makanan
 Website Recipe Wizard adalah sebuah situs web yang menyediakan banyak resep makanan dari berbagai macam negara. Data yang digunakan pada website ini diambil dari data resep Spoonacular API. 
+Situs ini berfokus untuk memudahkan para pengguna internet dalam mendapatkan resep masakan dengan cara yang mudah, yaitu pengguna internet dapat dengan mudah mengetikkan kata kunci pada search bar yang ada.
+Kata kunci yang digunakan merupakan nama bahan dalam pembuatan makanan seperti chicken, rice, orange, dan lainnya. Selain search bar yang ada pada halaman awal, disajikan juga beberapa cuplikan resep yang ditampilkan guna menarik para pengguna internet yang belum memiliki rencana mencari resep apa yang akan dicari dan jika pengguna tidak tertarik dengan hidangan yang terdapat pada halaman awal pengguna dapat “refresh” halaman tersebut dengan otomatis akan mengganti cuplikan resep sebelumnya dengan cuplikan resep yang lain.
+Situs web ini juga menyajikan informasi nutrisi dari setiap hidangan yang ada dan juga menampilkan visualisasinya dalam bentuk chart. 
