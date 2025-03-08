@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Wizard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍳 Recipe Wizard</h1>
+  </header>
+  <main class="container">
+    <section class="search-section">
+      <input type="text" id="ingredientInput" placeholder="Enter an ingredient..." class="search-input">
+      <button id="searchButton" class="search-button">Search</button>
+    </section>
+
+    <!-- Recommended Recipes Section -->
+    <section id="recommendedSection">
+      <h2>Recommended, Let's Try!</h2>
+      <div id="recipesContainer" class="recipes-container"></div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Recipe Wizard. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
