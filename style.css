@@ -1,0 +1,177 @@
+/* Center the Recommended title */
+#recommendedSection h2 {
+    text-align: center; /* Centers the text horizontally */
+    font-size: 2em;
+    color: #333; /* Darker color for readability */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* General Body Setup */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    color: #333; /* Darker text for better readability */
+}
+
+/* Header Section */
+header {
+    background-color: #f5a623;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Main Container Setup */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Larger shadow for a more modern look */
+}
+
+
+
+.pie-chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers each chart and its title */
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; /* Ensures full vertical centering */
+}
+
+.pie-chart-wrapper h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333; /* Match global text color */
+}
+
+.pie-chart-wrapper canvas {
+    width: 300px; /* Fixed size for the pie chart */
+    height: 300px;
+}
+
+/* Search Section Styling */
+.search-section {
+    margin-bottom: 40px; /* Increased margin for better spacing */
+    text-align: center;
+    position: relative;
+}
+
+/* Search Input */
+.search-input {
+    width: 60%;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 30px; /* Rounded corners for a smoother look */
+    outline: none;
+    transition: box-shadow 0.3s ease, width 0.3s ease;
+    background-color: #f1f1f1; /* Light background for input */
+    color: #333;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 12px rgba(58, 123, 213, 0.6); /* Blue focus effect */
+    width: 70%; /* Slightly expand the input on focus for a more interactive feel */
+}
+
+/* Search Button */
+.search-button {
+    padding: 14px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 30px; /* Rounded corners for the button */
+    cursor: pointer;
+    position: absolute;
+    right: -10px; /* Position button next to the input */
+    top: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Recipe Cards Container */
+#recipesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Recipe Card Styling */
+.recipe-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    transform: translateY(-8px); /* Lift effect on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Darker shadow for hover */
+}
+
+/* Recipe Card Image */
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Recipe Card Title */
+.recipe-card h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5a623;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .search-input {
+        width: 80%; /* Make search bar more responsive on smaller screens */
+    }
+
+    .recipe-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .pie-chart-wrapper canvas {
+        width: 250px; /* Smaller pie chart for mobile */
+        height: 250px;
+    }
+}
