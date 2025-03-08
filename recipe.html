@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Details</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🍳 Recipe Wizard</h1>
+  </header>
+  <main class="container">
+    <section id="RecipeWizard" class="recipe-wizard">
+      <img id="recipeImage" alt="Recipe Image" class="recipe-image"/>
+      <h2 id="recipeTitle" class="recipe-title"></h2>
+      <p id="recipeDescription" class="recipe-description"></p>
+      <div id="recipeIngredients" class="recipe-ingredients"></div>
+      <h3>Instructions:</h3>
+      <ul id="recipeInstructions" class="recipe-instructions"></ul>
+      <h3>Nutrition Chart:</h3>
+      <canvas id="nutritionChart" class="nutrition-chart"></canvas>
+      <div id="pieChartsContainer" class="pie-charts-container"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Recipe Wizard. All rights reserved.</p>
+  </footer>
+  <script src="details.js"></script>
+</body>
+</html>
